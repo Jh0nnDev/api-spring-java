@@ -34,9 +34,8 @@ public class TarefaController {
     }
 
     @DeleteMapping("/{id}")
-    Tarefa deletarTarefa(@PathVariable Integer id){
-        return repository.delete(id);
+    void deletarTarefa(@PathVariable Integer id) {
+        repository.deleteById(id);
+        System.out.println("Tarefa " + id + " deletada");
     }
-
-
 }
