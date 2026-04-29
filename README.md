@@ -6,11 +6,11 @@ API REST criada com Java junto com SpringBoot para operações de CRUD, implemen
 - JPA
 - Spring Security
 ## 🚀 Como rodar
-1.Ter o Java
-2.Fazer Configuração e Dowload do framework Spring Boot
-3.Ter o MySQL instalado 
-4.Configurar o banco de dados no arquivo "api-spring-java\src\main\resources\application.properties"
-5.Configurar o banco de dados no arquivo "api-spring-java\src\main\java\com\claudio\tarefas\Tarefa.java"
+1. Ter o Java
+2. Fazer Configuração e Dowload do framework Spring Boot
+3. Ter o MySQL instalado 
+4. Configurar o banco de dados no arquivo "api-spring-java\src\main\resources\application.properties"
+5. Configurar o banco de dados no arquivo "api-spring-java\src\main\java\com\claudio\tarefas\Tarefa.java"
 ## 📋 Endpoints
 | Método | Rota | Descrição |
 |--------|------|-----------|
